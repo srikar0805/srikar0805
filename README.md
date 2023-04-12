@@ -44,7 +44,8 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 
 ### :fire: My Stats :
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=srikar0805&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=srikar0805)](https://github.com/srikar0805/github-readme-stats)
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=srikar0805)](https://github.com/srikar0805/github-readme-stats) -->
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=srikar0805&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 <!---
 srikar0805/srikar0805 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
