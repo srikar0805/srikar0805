@@ -2,11 +2,11 @@
 - 👀 I’m interested in  Web page applications
 - 🌱 I’m currently learning Web development
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
+<!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id) -->
 
-<div id="header" align="left" >
+<!-- <div id="header" align="left" >
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
+</div> -->
 <div id="badges">
   <a href="your-linkedin-URL">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -23,7 +23,7 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 
 - :zap: In my free time, I solve problems on Coding Ninjas and read tech articles.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)]([your-linkedin-url](https://www.linkedin.com/in/sai-srikar-reddy-kolli-6988a8234/))
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-srikar-blue?style=flat&logo=Linkedin&logoColor=white)]([your-linkedin-url](https://www.linkedin.com/in/sai-srikar-reddy-kolli-6988a8234/))
 
 ---
 
@@ -44,7 +44,7 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 
 ### :fire: My Stats :
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=srikar0805&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=srikar0805)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=srikar0805)](https://github.com/srikar0805/github-readme-stats)
 
 <!---
 srikar0805/srikar0805 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
