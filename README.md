@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm sai srikar</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate frontend developer and presently learning Data Science domain from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=srikar0805&label=Profile%20views&color=0e75b6&style=flat" alt="srikar0805" /> </p>
 
