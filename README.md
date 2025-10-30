@@ -3,7 +3,7 @@
 <h3 align="center">A passionate frontend and backend developer and presently working on ML and Deep Learning.</h3>
 
 
-- 🔭 I’m currently working on **ESRGAN image enhancement on text images**
+- 🔭 I’m currently working on **Quantum Image Vision Project**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
