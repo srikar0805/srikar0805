@@ -79,17 +79,18 @@ I am a passionate developer bridging the gap between **Complex System Architectu
 ### 📫 Connect with Me
 
 <p align="center">
+  <a href="https://srikar0805.github.io/Srikar_portfolio.github.io/#home" target="blank">
+    <img align="center" src="https://img.shields.io/badge/Portfolio-Visit_My_Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+  </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/sai-srikar-reddy-kolli-6988a8234/" target="blank">
     <img align="center" src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://instagram.com/YOUR_INSTAGRAM_HANDLE" target="blank">
+  <a href="https://www.instagram.com/oreva_sai_srikar?igsh=MWFjamlkMHZ2bmFqNQ%3D%3D&utm_source=qr" target="blank">
     <img align="center" src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  &nbsp;
-  <a href="https://wa.me/YOUR_PHONE_NUMBER_WITH_COUNTRY_CODE" target="blank">
-    <img align="center" src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
-  </a>
+
   &nbsp;
   <a href="https://www.codechef.com/users/srikarreddy8" target="blank">
     <img align="center" src="https://img.shields.io/badge/CodeChef-Profile-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />
