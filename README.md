@@ -98,7 +98,13 @@ I am a passionate developer bridging the gap between **Complex System Architectu
 </p>
 
 ---
+
+### 📊 GitHub Stats & Achievements
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=srikar0805&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=srikar0805&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://github-profile-trophy.vercel.app/?username=srikar0805&theme=radical&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=srikar0805&theme=radical&hide_border=false" alt="Activity Graph" />
 </p>
