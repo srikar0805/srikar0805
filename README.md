@@ -92,9 +92,6 @@ I am a passionate developer bridging the gap between **Complex System Architectu
   </a>
 
   &nbsp;
-  <a href="https://www.codechef.com/users/srikarreddy8" target="blank">
-    <img align="center" src="https://img.shields.io/badge/CodeChef-Profile-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />
-  </a>
 </p>
 
 ---
