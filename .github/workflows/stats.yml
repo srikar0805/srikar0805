@@ -1,0 +1,45 @@
+# Renders assets for the profile README and publishes them to the `output`
+# branch. The README links the SVG from that branch, so main's history stays
+# clean and no third-party card service can rate limit the profile.
+name: Profile stats
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/stats.py
+      - .github/workflows/stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render stats card
+        run: python3 scripts/stats.py --login "${{ github.repository_owner }}" --out dist/stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # `output` only ever holds generated files, so each run replaces it with a
+      # single fresh commit rather than growing a history nobody reads.
+      - name: Publish to output branch
+        working-directory: dist
+        run: |
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.svg
+          git commit -q -m "Update profile stats"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

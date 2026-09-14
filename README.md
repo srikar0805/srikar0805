@@ -82,9 +82,7 @@ More in the [portfolio](https://srikar0805.github.io/Srikar_portfolio.github.io/
 ## `> git log --stats`
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=srikar0805&theme=radical" alt="GitHub profile summary" />
+  <img src="https://raw.githubusercontent.com/srikar0805/srikar0805/output/stats.svg" alt="GitHub activity: contributions and streaks in the past year, public repositories, followers and top languages" width="100%" />
 </p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=srikar0805&theme=radical" alt="GitHub stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=srikar0805&theme=radical" alt="Productive time" />
-</p>
+
+<sub>Rendered daily by <a href="./.github/workflows/stats.yml">a GitHub Action</a> in this repo from public data, so it never depends on an outside card service.</sub>
