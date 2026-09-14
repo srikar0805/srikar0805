@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Sai Srikar Reddy Kolli</title>
+  <desc id="d">ML systems, evaluation and agent tooling. Animated neon grid banner.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#04060b"/>
+      <stop offset="0.62" stop-color="#0b1330"/>
+      <stop offset="1" stop-color="#04060b"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#62f0dc"/>
+      <stop offset="0.45" stop-color="#d9fff9"/>
+      <stop offset="1" stop-color="#9d86ff"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#62f0dc" stop-opacity="0"/>
+      <stop offset="1" stop-color="#62f0dc" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="horizon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9d86ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#9d86ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="floor"><rect x="0" y="206" width="1200" height="114"/></clipPath>
+    <style>
+      .h { stroke: #62f0dc; stroke-width: 1.2; opacity: 0; animation: run 4s cubic-bezier(.55,0,1,.45) infinite; }
+      .h:nth-child(2) { animation-delay: -.8s } .h:nth-child(3) { animation-delay: -1.6s }
+      .h:nth-child(4) { animation-delay: -2.4s } .h:nth-child(5) { animation-delay: -3.2s }
+      @keyframes run { 0% { transform: translateY(0); opacity: 0 } 15% { opacity: .5 } 100% { transform: translateY(114px); opacity: .9 } }
+      .star { fill: #eef6ff; animation: tw 3s ease-in-out infinite; }
+      .star:nth-of-type(3n) { animation-delay: -1s; fill: #62f0dc } .star:nth-of-type(4n) { animation-delay: -2s; fill: #9d86ff }
+      @keyframes tw { 50% { opacity: .2 } }
+      .spin { transform-origin: 1030px 112px; animation: spin 18s linear infinite; }
+      .spin2 { transform-origin: 1030px 112px; animation: spin 11s linear infinite reverse; }
+      @keyframes spin { to { transform: rotate(360deg) } }
+      .scan { animation: scan 5s ease-in-out infinite; }
+      @keyframes scan { 0%, 100% { transform: translateX(-260px); opacity: 0 } 20%, 80% { opacity: .7 } 50% { transform: translateX(760px) } }
+      .cursor { animation: blink 1.1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0 } }
+      @media (prefers-reduced-motion: reduce) { .h, .star, .spin, .spin2, .scan, .cursor { animation: none } .h { opacity: .5 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <ellipse cx="600" cy="206" rx="520" ry="46" fill="url(#horizon)"/>
+
+  <g>
+    <circle class="star" cx="80" cy="40" r="1.3"/><circle class="star" cx="190" cy="88" r="1"/><circle class="star" cx="260" cy="22" r="1.6"/>
+    <circle class="star" cx="420" cy="60" r="1"/><circle class="star" cx="505" cy="18" r="1.2"/><circle class="star" cx="640" cy="44" r="1"/>
+    <circle class="star" cx="760" cy="26" r="1.5"/><circle class="star" cx="860" cy="70" r="1"/><circle class="star" cx="920" cy="160" r="1.2"/>
+    <circle class="star" cx="1130" cy="40" r="1.4"/><circle class="star" cx="1160" cy="150" r="1"/><circle class="star" cx="36" cy="150" r="1.2"/>
+    <circle class="star" cx="340" cy="178" r="1"/><circle class="star" cx="1090" cy="190" r="1.1"/>
+  </g>
+
+  <!-- perspective floor: rays to the vanishing point plus lines rushing toward the viewer -->
+  <g clip-path="url(#floor)" stroke="#62f0dc" stroke-opacity=".28" stroke-width="1">
+    <path d="M600 206 L-900 320 M600 206 L-600 320 M600 206 L-300 320 M600 206 L0 320 M600 206 L200 320 M600 206 L400 320 M600 206 L600 320 M600 206 L800 320 M600 206 L1000 320 M600 206 L1200 320 M600 206 L1500 320 M600 206 L1800 320 M600 206 L2100 320"/>
+  </g>
+  <g clip-path="url(#floor)">
+    <line class="h" x1="0" y1="206" x2="1200" y2="206"/>
+    <line class="h" x1="0" y1="206" x2="1200" y2="206"/>
+    <line class="h" x1="0" y1="206" x2="1200" y2="206"/>
+    <line class="h" x1="0" y1="206" x2="1200" y2="206"/>
+    <line class="h" x1="0" y1="206" x2="1200" y2="206"/>
+  </g>
+  <rect x="0" y="206" width="1200" height="1.5" fill="#62f0dc" opacity=".7" filter="url(#glow)"/>
+  <rect x="0" y="250" width="1200" height="70" fill="url(#fade)" opacity=".18"/>
+
+  <!-- wireframe icosahedron, projected -->
+  <g fill="none" stroke-linejoin="round" filter="url(#glow)" transform="translate(80 0)">
+    <!-- SMIL rather than CSS transforms: it rotates about a fixed point in every engine, including WebKit -->
+    <g stroke="#62f0dc" stroke-width="1.4" stroke-opacity=".85">
+      <polygon points="1030,40 1092,76 1092,148 1030,184 968,148 968,76"/>
+      <path d="M1030 40 L1030 88 L1072 136 L988 136 L1030 88 M968 76 L1030 88 L1092 76 M968 148 L988 136 M1092 148 L1072 136 M1030 184 L988 136 M1030 184 L1072 136"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 1030 112" to="360 1030 112" dur="18s" repeatCount="indefinite"/>
+    </g>
+    <g stroke="#9d86ff" stroke-width="1.1" stroke-opacity=".7">
+      <ellipse cx="1030" cy="112" rx="82" ry="24"/>
+      <animateTransform attributeName="transform" type="rotate" from="360 1030 112" to="0 1030 112" dur="11s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- textLength pins the width, so a fallback font can never push the name into the solid -->
+  <text x="70" y="118" textLength="590" lengthAdjust="spacingAndGlyphs" font-family="'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif" font-size="58" font-weight="700" fill="url(#name)" filter="url(#glow)">Sai Srikar Reddy Kolli</text>
+  <text x="72" y="160" textLength="575" lengthAdjust="spacing" font-family="'JetBrains Mono',Menlo,Consolas,monospace" font-size="19" fill="#a9b6c4">ML SYSTEMS <tspan fill="#9d86ff">/</tspan> EVALUATION <tspan fill="#9d86ff">/</tspan> AGENT TOOLING<tspan class="cursor" fill="#62f0dc">_</tspan></text>
+  <rect class="scan" x="70" y="70" width="2" height="104" fill="#d9fff9" opacity="0" filter="url(#glow)"/>
+</svg>
